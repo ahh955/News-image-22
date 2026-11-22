@@ -6,7 +6,7 @@
 
 A make.fun bounty entry: one program that writes one image summing up the
 world news of **Sunday 22 November 2026** — a 1024×1024 newspaper front
-page with **34 stories across 7 regions**, every one dated Sunday
+page with **35 stories across 7 regions**, every one dated Sunday
 22 November 2026.
 
 ## The front page
@@ -15,40 +15,46 @@ page with **34 stories across 7 regions**, every one dated Sunday
   (two waves of drones and missiles on four bases; three tankers hit
   in Hormuz); Russia's biggest strike yet on Lviv (50+ missiles, ~500
   drones, at least 5 killed overnight); COP31 nears a deal in Antalya
-  and admits for the first time that the 1.5°C goal is lost. Each lead
-  has its own procedural drawing: a night battle over the Gulf, an
+  after two days of overtime, with a vote at 06:00 GMT. Each lead has
+  its own procedural drawing — a night battle over the Gulf, an
   explosion over Lviv, and a globe and a clock set to the 06:00 GMT
-  approval hour.
+  approval hour — under a red kicker bar.
+- **An italic sub-deck** under the masthead naming the four biggest
+  stories, a **stat strip**, and a **colour-coded region strip**.
 - **An "hour by hour" timeline strip** — the day's key moments from the
   Lviv blackout (04:30 GMT) to the ATP final (18:00 CET), each with
   its own time zone.
-- **12 illustrated features** — every feature card now carries its own
-  small procedural scene: Iran's blackouts, the Russian cargo ship
-  Sparta II still burning in the Gulf of Finland after a suspected
-  drone strike, Hong Kong votes for the Election Committee, Nepal's PM
-  lands in Delhi on his first trip abroad, Alcaraz v Zverev in the ATP
-  Finals, Pant's 128 puts India in charge in Wellington, the Pope's
-  Sunday (Angelus, then lunch with 1,300 poor people), SpaceX launches
-  NROL-136, Sunday Night Football in Mexico City, Pochettino's first
-  game at Liverpool, Verstappen on pole in Las Vegas, and the amputee
-  World Cup final between Ghana and Morocco.
-- **19 one-line briefs** with sources — the Myanmar and Philippines
-  quakes, Indonesia's heavy-rain alert, the NBA slate, China's vice
+- **10 illustrated features** — every feature card now carries a WIDE
+  procedural scene across the top of the card: Iran's blackouts, the
+  Russian cargo ship Sparta II still burning in the Gulf of Finland
+  after a suspected drone strike, Hong Kong votes for the Election
+  Committee, Nepal's PM lands in Delhi on his first trip abroad,
+  Alcaraz v Zverev in the ATP Finals, Pant's 128 puts India in charge
+  in Wellington (India declared on a record 720-9), Sunday Night
+  Football in Mexico City, Pochettino's first game at Liverpool,
+  Verstappen leading the Las Vegas Grand Prix from pole, and the
+  amputee World Cup final between Ghana and Morocco.
+- **22 one-line briefs** with sources — the Myanmar and Philippines
+  quakes, the search for 36 workers missing after a factory fire in
+  Banten, Indonesia's heavy-rain alert, the NBA slate, China's vice
   premier in Singapore, the SCO forum's close, Victoria's election
   countdown, the European football fixtures, France's protest
   disruption, NFL Week 11, the 14-tanker Hormuz convoy, the UAE
   president receiving the US Homeland Security secretary, Eisenkot
   inviting Likud to coalition talks, Dubai's Icons of Porsche festival
-  opening, the India–Bangladesh Ganga water talks in Dhaka, Storm
-  Kyle, Marles on AUKUS, and the Somalia deadline for the UAE envoy.
+  opening, the India–Bangladesh Ganga water talks in Dhaka, Marles on
+  AUKUS, the Somalia deadline for the UAE envoy, Beijing opposing the
+  US FCC telecom ban, the Pope's Sunday lunch for 1,300 poor people,
+  and the SpaceX NROL-136 launch.
 - **A world map with numbered dots** ("WHERE IT HAPPENED") pinning the
-  leads and most features, a stat strip, a region strip, a short
-  **DATE CHECK** box naming the big Friday and Saturday stories
-  deliberately left out, so nothing from an earlier day is ever
-  presented as Sunday news, and a **VOICES** strip with illustrated
-  figures speaking verbatim Sunday quotes — Zelenskyy on NATO
-  membership (ANI, Kyiv) and COP31 president Kurum on the deal text
-  (Reuters, Antalya) — no invented speech.
+  leads and most features, a short **DATE CHECK** box naming the big
+  Friday and Saturday stories deliberately left out — plus what was
+  NOT yet known when the page was drawn (the F1 result, the COP31
+  final text, the Hong Kong results) — so nothing from an earlier day
+  is ever presented as Sunday news, and a **VOICES** strip with
+  illustrated figures speaking verbatim Sunday quotes — Zelenskyy on
+  NATO membership (ANI, Kyiv) and COP31 president Kurum on the deal
+  text (Reuters, Antalya) — no invented speech.
 
 Every story carries a verification tag: **CONFIRMED** (2+ outlets),
 **OFFICIAL** (on the record), or **REPORTED** (single source). Sources
@@ -90,8 +96,11 @@ admission, Basra fire and BepiColombo arrival, and the 15 November Gaza
 tents appeal appear only in the DATE CHECK box, clearly labelled as not
 Sunday news. The Myanmar quake (02:35 IST Sunday) and the Philippines
 quake (00:23 UTC Sunday) are included with their times stated. The Las
-Vegas Grand Prix runs Sunday 04:00 UTC, with Verstappen on pole after
-Antonelli's five-place penalty — the race itself is tonight, so it is a
-feature, not a result. The Sparta II was struck Saturday morning but was
-still burning at anchor on Sunday, with Finland leading the rescue — it
-is framed as the ongoing Sunday story it is.
+Vegas Grand Prix started Sunday 04:00 UTC, with Verstappen leading from
+pole after Antonelli's five-place penalty — the race was still running
+when the page was drawn, so the result is listed in DATE CHECK as not yet
+known. The Sparta II was struck Saturday morning but was still burning
+at anchor on Sunday, with Finland leading the rescue — it is framed as
+the ongoing Sunday story it is. The COP31 approval session was scheduled
+for 06:00 GMT Sunday, after this page was drawn; the lead reports the
+deal as near, not done.
