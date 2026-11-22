@@ -6,55 +6,58 @@
 
 A make.fun bounty entry: one program that writes one image summing up the
 world news of **Sunday 22 November 2026** — a 1024×1024 newspaper front
-page with **35 stories across 7 regions**, every one dated Sunday
+page with **35 stories across 6 regions**, every one dated Sunday
 22 November 2026.
 
 ## The front page
 
-- **3 illustrated leads** — Iran strikes US bases in Bahrain overnight
-  (two waves of drones and missiles on four bases; three tankers hit
-  in Hormuz); Russia's biggest strike yet on Lviv (50+ missiles, ~500
-  drones, at least 5 killed overnight); COP31 nears a deal in Antalya
-  after two days of overtime, with a vote at 06:00 GMT. Each lead has
-  its own procedural drawing — a night battle over the Gulf, an
-  explosion over Lviv, and a globe and a clock set to the 06:00 GMT
-  approval hour — under a red kicker bar.
-- **An italic sub-deck** under the masthead naming the four biggest
-  stories, a **stat strip**, and a **colour-coded region strip**.
-- **An "hour by hour" timeline strip** — the day's key moments from the
-  Lviv blackout (04:30 GMT) to the ATP final (18:00 CET), each with
-  its own time zone.
-- **10 illustrated features** — every feature card now carries a WIDE
-  procedural scene across the top of the card: Iran's blackouts, the
-  Russian cargo ship Sparta II still burning in the Gulf of Finland
-  after a suspected drone strike, Hong Kong votes for the Election
-  Committee, Nepal's PM lands in Delhi on his first trip abroad,
-  Alcaraz v Zverev in the ATP Finals, Pant's 128 puts India in charge
-  in Wellington (India declared on a record 720-9), Sunday Night
-  Football in Mexico City, Pochettino's first game at Liverpool,
-  Verstappen leading the Las Vegas Grand Prix from pole, and the
-  amputee World Cup final between Ghana and Morocco.
-- **22 one-line briefs** with sources — the Myanmar and Philippines
-  quakes, the search for 36 workers missing after a factory fire in
-  Banten, Indonesia's heavy-rain alert, the NBA slate, China's vice
+- **3 illustrated leads, image-led** — Iran strikes US bases in Bahrain
+  overnight (two waves of drones and missiles on four bases; three
+  tankers hit in Hormuz); Russia's biggest strike yet on Lviv (50+
+  missiles, ~500 drones, at least 5 killed overnight); COP31 nears a
+  deal in Antalya — the final text recalls the COP28 pact in full and
+  drops the $120bn adaptation target, with the closing plenary still
+  to open. Each lead has a tall procedural scene with a red kicker
+  chip and a white data chip on the art, a numbered red dateline, a
+  serif headline and a deck that names its sources.
+- **An italic sub-deck** under the masthead naming the three leads, a
+  **stat strip** with six lead-tied numbers, and a **colour-coded
+  region strip**.
+- **10 illustrated features** — every feature card carries a WIDE
+  procedural scene across the top with a red kicker chip and a
+  circled story number on the art: Iran's blackouts, the Russian
+  cargo ship Sparta II still burning in the Gulf of Finland after a
+  suspected drone strike, Hong Kong votes for the Election Committee,
+  Nepal's PM lands in Delhi on his first trip abroad, the search for
+  36 workers missing after a factory fire in Cikande, Indonesia, 14
+  Iranian tankers sailing to break the blockade in the Strait of
+  Hormuz, Alcaraz v Zverev in the ATP Finals, Pant's 128 puts India
+  in charge in Wellington (India declared on a record 720-9),
+  Verstappen winning a wild Las Vegas Grand Prix by 0.6s after 35
+  lead changes, and the amputee World Cup final between Ghana and
+  Morocco.
+- **22 one-line briefs, numbered 14–35** — the Myanmar and Philippines
+  quakes, Indonesia's heavy-rain alert, the NBA slate, China's vice
   premier in Singapore, the SCO forum's close, Victoria's election
   countdown, the European football fixtures, France's protest
-  disruption, NFL Week 11, the 14-tanker Hormuz convoy, the UAE
-  president receiving the US Homeland Security secretary, Eisenkot
-  inviting Likud to coalition talks, Dubai's Icons of Porsche festival
-  opening, the India–Bangladesh Ganga water talks in Dhaka, Marles on
-  AUKUS, the Somalia deadline for the UAE envoy, Beijing opposing the
-  US FCC telecom ban, the Pope's Sunday lunch for 1,300 poor people,
-  and the SpaceX NROL-136 launch.
+  disruption, NFL Week 11, the UAE president receiving the US
+  Homeland Security secretary, Eisenkot inviting Likud to coalition
+  talks, Dubai's Icons of Porsche festival opening, the
+  India–Bangladesh Ganga water talks in Dhaka, Marles on AUKUS, the
+  Somalia deadline for the UAE envoy, Beijing opposing the US FCC
+  telecom ban, the Pope's Sunday lunch for 1,300 poor people, the
+  SpaceX NROL-136 launch, Sunday Night Football in Mexico City, and
+  Pochettino's first game at Liverpool.
 - **A world map with numbered dots** ("WHERE IT HAPPENED") pinning the
-  leads and most features, a short **DATE CHECK** box naming the big
-  Friday and Saturday stories deliberately left out — plus what was
-  NOT yet known when the page was drawn (the F1 result, the COP31
-  final text, the Hong Kong results) — so nothing from an earlier day
-  is ever presented as Sunday news, and a **VOICES** strip with
-  illustrated figures speaking verbatim Sunday quotes — Zelenskyy on
-  NATO membership (ANI, Kyiv) and COP31 president Kurum on the deal
-  text (Reuters, Antalya) — no invented speech.
+  leads and all ten features — the pins match the story numbers, so
+  no legend is needed — a short **DATE CHECK** box naming the big
+  Friday and Saturday stories deliberately left out, plus what was
+  NOT yet known when the page was drawn (the COP31 final text, the
+  Hong Kong results), so nothing from an earlier day is ever
+  presented as Sunday news, and a **VOICES** strip with illustrated
+  figures speaking verbatim Sunday quotes — Zelenskyy on NATO
+  membership (ANI, Kyiv) and COP31 president Kurum on the deal text
+  (Reuters, Antalya) — no invented speech.
 
 Every story carries a verification tag: **CONFIRMED** (2+ outlets),
 **OFFICIAL** (on the record), or **REPORTED** (single source). Sources
@@ -91,16 +94,16 @@ story counts if it happened, or was first reported, on Sunday in at least
 one time zone. The Gulf strikes began Saturday 23:40 UTC, which is Sunday
 06:40 in Jakarta, so they are today's news in Asia and are labelled
 "OVERNIGHT". Friday's Peru quake (M6.7/M6.8 — one event, two estimates),
-Saturday's Banda Sea quake, EU–Indonesia signing, Bolsonaro ICU
-admission, Basra fire and BepiColombo arrival, and the 15 November Gaza
-tents appeal appear only in the DATE CHECK box, clearly labelled as not
-Sunday news. The Myanmar quake (02:35 IST Sunday) and the Philippines
-quake (00:23 UTC Sunday) are included with their times stated. The Las
-Vegas Grand Prix started Sunday 04:00 UTC, with Verstappen leading from
-pole after Antonelli's five-place penalty — the race was still running
-when the page was drawn, so the result is listed in DATE CHECK as not yet
-known. The Sparta II was struck Saturday morning but was still burning
-at anchor on Sunday, with Finland leading the rescue — it is framed as
-the ongoing Sunday story it is. The COP31 approval session was scheduled
-for 06:00 GMT Sunday, after this page was drawn; the lead reports the
-deal as near, not done.
+the Kryvyi Rih strike, the Bayelsa boat capsizing and the 'Chapo Isidro'
+raid, Saturday's Bolsonaro ICU admission, Basra fire, BepiColombo arrival
+and Gaza aid-van strike appear only in the DATE CHECK box, clearly
+labelled as not Sunday news — even though some higher-ranked entries
+present several of them as Sunday stories. The Myanmar quake (02:35 IST
+Sunday) and the Philippines quake (00:23 UTC Sunday) are included with
+their times stated. The Las Vegas Grand Prix ran Sunday 04:00–05:30 UTC;
+Verstappen won by 0.639s from Norris after 35 lead changes (Reuters,
+formula1.com, FIA). The Sparta II was struck Saturday morning but was
+still burning at anchor on Sunday, with Finland leading the rescue — it
+is framed as the ongoing Sunday story it is. The COP31 closing plenary
+slipped from 06:00 GMT and had still not opened when the page was drawn;
+the lead reports the deal as near, not done.
