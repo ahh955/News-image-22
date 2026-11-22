@@ -1,45 +1,50 @@
 #!/usr/bin/env python3
-"""Entrypoint for make.fun news-image-20261122.
+"""Entrypoint for make.fun news-image-20261122 (v7).
 
-Copies the pre-built entry.png next to this file to /output/entry.png
-(or $MAKEFUN_OUTPUT_DIR/entry.png when set, for local runs).
-Standard library only, no network. Deterministic: the same bytes
-every run.
+Copies the pre-rendered entry.png into the output directory and
+validates the competition gate: the PNG must be at most 1 MiB and
+at most 1024x1024 pixels. Stdlib only; deterministic (a byte copy).
 """
 
 import os
 import shutil
 import struct
+import sys
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-MAX_BYTES = 1048576
-MAX_DIM = 1024
-PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
+MAX_BYTES = 1_048_576  # 1 MiB
+MAX_SIDE = 1024
 
 
-def validate_png(path):
-    """Check the entry image: PNG signature, <= 1 MiB, <= 1024x1024."""
-    size = os.path.getsize(path)
-    if size > MAX_BYTES:
-        raise SystemExit("entry.png is %d bytes, over the 1 MiB limit" % size)
-    with open(path, "rb") as f:
-        header = f.read(33)
-    if not header.startswith(PNG_SIGNATURE):
-        raise SystemExit("entry.png is not a PNG file")
+def png_size(path):
+    """Read width/height from the PNG IHDR chunk (stdlib only)."""
+    with open(path, "rb") as fh:
+        header = fh.read(33)
+    if len(header) < 33 or header[:8] != b"\x89PNG\r\n\x1a\n":
+        raise SystemExit("entry.png is not a valid PNG")
     if header[12:16] != b"IHDR":
         raise SystemExit("entry.png has no IHDR chunk")
     width, height = struct.unpack(">II", header[16:24])
-    if width > MAX_DIM or height > MAX_DIM:
-        raise SystemExit("entry.png is %dx%d, over the 1024x1024 limit"
-                         % (width, height))
+    return width, height
 
 
 def main():
-    src = os.path.join(HERE, "entry.png")
-    validate_png(src)
-    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
+    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "output")
+    src = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                       "entry.png")
+    if not os.path.isfile(src):
+        raise SystemExit("entry.png not found next to main.py")
+    size = os.path.getsize(src)
+    if size > MAX_BYTES:
+        raise SystemExit("entry.png is %d bytes, over the 1 MiB limit"
+                         % size)
+    width, height = png_size(src)
+    if width > MAX_SIDE or height > MAX_SIDE:
+        raise SystemExit("entry.png is %dx%d, over the 1024x1024 limit"
+                         % (width, height))
     os.makedirs(out_dir, exist_ok=True)
-    shutil.copyfile(src, os.path.join(out_dir, "entry.png"))
+    dst = os.path.join(out_dir, "entry.png")
+    shutil.copyfile(src, dst)
+    print("entry.png (%d bytes, %dx%d) -> %s" % (size, width, height, dst))
 
 
 if __name__ == "__main__":
